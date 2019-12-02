@@ -29,4 +29,16 @@ class ShoppingListController @Autowired constructor() {
         return input // Return the added cocktailId's
     }
 
+    @GetMapping("/{shoppingListId}")
+    @ResponseStatus(HttpStatus.OK)
+    fun get(): ShoppingListResponse {
+        // TODO: Get shopping list
+
+        return ShoppingListResponse(
+                "uuid",
+                "name",
+                listOf("tequila", "salt", "blue curacao")
+        )
+    }
+
 }
