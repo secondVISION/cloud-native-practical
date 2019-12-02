@@ -1,4 +1,4 @@
-package com.ezgroceries.shoppinglist.services
+package com.ezgroceries.shoppinglist.service
 
 import com.ezgroceries.shoppinglist.model.CocktailResource
 import org.springframework.beans.factory.annotation.Autowired
